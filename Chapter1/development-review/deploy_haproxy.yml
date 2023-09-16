@@ -1,5 +1,5 @@
 - name: Ensure HAProxy is deployed
-  hosts: lb_servers
+  hosts: media, web_servers
   force_handlers: True
   gather_facts: no
 
